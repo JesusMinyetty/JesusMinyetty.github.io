@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada del Blog</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Nombre del Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Título de la Entrada</h2>
+            <p>Fecha de publicación: <time datetime="2023-10-01">1 de octubre de 2023</time></p>
+            <p>Contenido de la entrada del blog. Aquí puedes escribir sobre el tema que desees, compartir tus pensamientos y experiencias.</p>
+        </article>
+
+        <section class="comments">
+            <h3>Comentarios</h3>
+            <form action="#" method="post">
+                <label for="comment">Deja un comentario:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="comment-list">
+                <p><strong>Usuario1:</strong> ¡Gran entrada! Me encantó leerlo.</p>
+                <p><strong>Usuario2:</strong> Muy interesante, gracias por compartir.</p>
+            </div>
+        </section>
+
+        <section class="related-posts">
+            <h3>Entradas Relacionadas</h3>
+            <ul>
+                <li><a href="post.html">Título de otra entrada</a></li>
+                <li><a href="post.html">Título de otra entrada</a></li>
+                <li><a href="post.html">Título de otra entrada</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nombre del Blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
